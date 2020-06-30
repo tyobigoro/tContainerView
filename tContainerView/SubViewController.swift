@@ -17,16 +17,16 @@ class SubViewController: UIViewController, UIGestureRecognizerDelegate {
         guard let parentVC = self.parent as? ViewController else { return }
         
         let addView = UIView()
-        addView.center = parentVC.view.center
         addView.bounds = CGRect(x: 0, y: 0, width: 100, height: 100)
+        addView.center = parentVC.view.center
         addView.backgroundColor = .blue
         
-        let gesture = UITapGestureRecognizer(target: parentVC, action: #selector(parentVC.tapped))
+        let gesture = UILongPressGestureRecognizer(target: parentVC, action: #selector(parentVC.longPress(_:)))
         gesture.delegate = self
         
         addView.addGestureRecognizer(gesture)
         
-        self.parent?.view.addSubview(addView)
+        parentVC.view.addSubview(addView)
     }
     
 }

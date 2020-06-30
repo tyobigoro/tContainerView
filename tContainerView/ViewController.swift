@@ -10,8 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @objc func tapped() {
-        print(#function)
+    @objc func longPress(_ sender: UILongPressGestureRecognizer){
+        if sender.state == .began {
+            print("LongPress began")
+        } else if sender.state == .ended {
+            print("LongPress ended")
+        }
     }
     
 }
