@@ -61,11 +61,11 @@
 				217442A424ABC1B200997A48 /* AppDelegate.swift */,
 				217442A624ABC1B200997A48 /* SceneDelegate.swift */,
 				217442A824ABC1B200997A48 /* ViewController.swift */,
+				217442B824ABC22E00997A48 /* SubViewController.swift */,
 				217442AA24ABC1B200997A48 /* Main.storyboard */,
 				217442AD24ABC1B400997A48 /* Assets.xcassets */,
 				217442AF24ABC1B400997A48 /* LaunchScreen.storyboard */,
 				217442B224ABC1B400997A48 /* Info.plist */,
-				217442B824ABC22E00997A48 /* SubViewController.swift */,
 			);
 			path = tContainerView;
 			sourceTree = "<group>";
