@@ -8,7 +8,11 @@
 
 import UIKit
 
+// 別ファルとか関係ないけどこだわってるみたいだから別ファイルに
+
 class SubViewController: UIViewController, UIGestureRecognizerDelegate {
+    
+    // 書き方がわからないだけじゃないですか？
     
     @IBAction func addViewToParent() {
         
