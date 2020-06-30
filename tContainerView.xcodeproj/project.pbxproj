@@ -13,6 +13,7 @@
 		217442AC24ABC1B200997A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217442AA24ABC1B200997A48 /* Main.storyboard */; };
 		217442AE24ABC1B400997A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217442AD24ABC1B400997A48 /* Assets.xcassets */; };
 		217442B124ABC1B400997A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217442AF24ABC1B400997A48 /* LaunchScreen.storyboard */; };
+		217442B924ABC22E00997A48 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217442B824ABC22E00997A48 /* SubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		217442AD24ABC1B400997A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		217442B024ABC1B400997A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		217442B224ABC1B400997A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217442B824ABC22E00997A48 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				217442AD24ABC1B400997A48 /* Assets.xcassets */,
 				217442AF24ABC1B400997A48 /* LaunchScreen.storyboard */,
 				217442B224ABC1B400997A48 /* Info.plist */,
+				217442B824ABC22E00997A48 /* SubViewController.swift */,
 			);
 			path = tContainerView;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				217442A924ABC1B200997A48 /* ViewController.swift in Sources */,
 				217442A524ABC1B200997A48 /* AppDelegate.swift in Sources */,
 				217442A724ABC1B200997A48 /* SceneDelegate.swift in Sources */,
+				217442B924ABC22E00997A48 /* SubViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
