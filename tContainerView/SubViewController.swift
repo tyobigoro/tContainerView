@@ -12,8 +12,6 @@ import UIKit
 
 class SubViewController: UIViewController, UIGestureRecognizerDelegate {
     
-    // 書き方がわからないだけじゃない？
-    
     @IBAction func addViewToParent() {
         
         guard let parentVC = self.parent as? ViewController else { return }
