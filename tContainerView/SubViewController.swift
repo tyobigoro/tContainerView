@@ -8,11 +8,11 @@
 
 import UIKit
 
-// 別ファルとか関係ないけどこだわってるみたいだから別ファイルに
+// 別ファルとか関係ないけど、なんでかこだわってるみたいだから見通し悪いけど別ファイルに
 
 class SubViewController: UIViewController, UIGestureRecognizerDelegate {
     
-    // 書き方がわからないだけじゃないですか？
+    // 書き方がわからないだけじゃない？
     
     @IBAction func addViewToParent() {
         
